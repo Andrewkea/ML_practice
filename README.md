@@ -76,7 +76,7 @@ TOP-5 CATEGORIES:
 ```
 4. Поиск по тексту
 ```bash
-python landmark_system.py search_text --query "Эрмитаж"
+python landmark_system.py search_text --query "your text"
 ```
 Система выдаст сообщение(пример):
 ```text
@@ -177,6 +177,7 @@ GitHub: @Andrewkea
 - Сообществу open source
 
 # ⭐ Если проект был полезен, поставьте звезду на GitHub!
+
 
 
 

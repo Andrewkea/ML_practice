@@ -83,14 +83,18 @@ python landmark_system.py search_text --query "Эрмитаж"
 
 # 📊 Пример вывода
 Топ-5 названий:
-1. Храм на Крови (0.9542)
-2. Плотинка (0.8721)
-3. Ельцин Центр (0.8215)
+1. Динамо (score: 4.0291)
+2. Центральный стадион (score: 2.2179)
+3. Владимирский академический областной драматический театр (score: 2.1981)
+4. Театр музыкальной комедии (score: 0.7478)
+5. улица Чернышевского (score: 0.7374)
 
 Топ-5 категорий:
-1. храм (0.9187)
-2. музей (0.8543)
-3. памятник (0.7982)
+1. sport,architecture,historic_architecture,interesting_places,stadiums,other_buildings_and_structures (score: 6.2470)
+2. cultural,theatres_and_entertainments,interesting_places,other_theatres (score: 2.1981)
+3. cultural,museums,interesting_places,art_galleries (score: 1.4583)
+4. cultural,theatres_and_entertainments,interesting_places,music_venues (score: 0.7478)
+5. cultural,urban_environment,interesting_places,squares (score: 0.7374)
 
 # 🏗️ Структура проекта
 ```text
@@ -128,6 +132,7 @@ GitHub: @Andrewkea
 - Сообществу open source
 
 # ⭐ Если проект был полезен, поставьте звезду на GitHub!
+
 
 
 

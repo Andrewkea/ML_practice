@@ -13,9 +13,11 @@
 # 1. Клонируйте репозиторий
 git clone https://github.com/Andrewkea/landmark-search-system.git
 cd landmark-search-system
-
+```
 # 2. Установите зависимости
+```bash
 pip install -r requirements.txt
+```
 #📥 Скачивание данных
 
 Данные слишком велики для GitHub. Скачайте их отдельно:
@@ -26,9 +28,9 @@ pip install -r requirements.txt
 3. Распакуйте в папку `data/`
 
 Запустить обработку данных:
-
+```bash
 python landmark_system.py process
-
+```
 Система автоматически создаст:
 
 combined_dataset.csv (обработанные данные)
@@ -39,15 +41,18 @@ landmark_system.pk1 (поисковая система)
 
 💡 Использование
 Поиск по изображению
+```bash
 python landmark_system.py search_image --image "путь/к/изображению.jpg" --top_k 5
-
+```
 
 Поиск по тексту
+```bash
 python landmark_system.py search_text --query "храм" --top_k 10
-
+```
 Построение системы
+```bash
 python landmark_system.py build --clean
-
+```
 
 📊 Пример вывода
 Топ-5 названий:
@@ -62,7 +67,7 @@ python landmark_system.py build --clean
 
 
 📁 Структура проекта
-text
+```text
 landmark-search-system/
 ├── landmark_system.py     # Основной скрипт
 ├── config.py             # Настройки путей
@@ -71,18 +76,7 @@ landmark-search-system/
 ├── README.md            # Эта документация
 ├── data/                # Данные (локально)
 └── examples/            # Примеры использования
-
-
-🤝 Участие в разработке
-Форкните репозиторий
-
-Создайте ветку (git checkout -b feature/AmazingFeature)
-
-Сделайте коммит (git commit -m 'Add AmazingFeature')
-
-Запушьте ветку (git push origin feature/AmazingFeature)
-
-Создайте Pull Request
+```
 
 📄 Лицензия
 MIT License
@@ -93,4 +87,5 @@ MIT License
 GitHub: @Andrewkea
 
 ⭐ Если проект был полезен, поставьте звезду на GitHub!
+
 

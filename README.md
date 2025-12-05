@@ -60,11 +60,25 @@ python landmark_system.py build --clean
 ```bash
 python landmark_system.py search_image --image path/to/your/image.jpg
 ```
+Система выдаст сообщение(пример):
+```text
+============================================================
+TOP-5 NAMES:
+============================================================
+1. Динамо (score: 2.9017)
+2. Локомотив (score: 2.1092)
+3. Центральный стадион (score: 1.4187)
+
+============================================================
+TOP-5 CATEGORIES:
+============================================================
+1. sport,architecture,historic_architecture,interesting_places,stadiums,other_buildings_and_structures (score: 6.4296)
+```
 4. Поиск по тексту
 ```bash
 python landmark_system.py search_text --query "Эрмитаж"
 ```
-Система выдаст сообщение:
+Система выдаст сообщение(пример):
 ```text
 ============================================================
 TOP-5 IMAGES FOR: 'Эрмитаж'
@@ -74,27 +88,26 @@ Search method: CLIP
 1. Авиамеханический колледж (score: 0.3147)
    Category: architecture,historic_architecture,interesting_places,other_buildings_and_structures
    City: Владимир
-   Path: C:\Users\424\Desktop\data\data\decoded_images\Vladimir\Vladimir_72_Авиамеханический колледж.jpg
+   Path: 
 
 2. Владимир (score: 0.3141)
    Category: historic,monuments_and_memorials,interesting_places,monuments
    City: Владимир
-   Path: C:\Users\424\Desktop\data\data\decoded_images\Vladimir\Vladimir_1764_Владимир.jpg
+   Path: 
 
 3. Владимир (score: 0.3141)
    Category: historic,monuments_and_memorials,interesting_places,monuments
    City: Владимир
-   Path: C:\Users\424\Desktop\data\data\decoded_images\Vladimir\Vladimir_1764_Владимир.jpg
-
+   Path: 
 4. Владимир (score: 0.3141)
    Category: historic,monuments_and_memorials,interesting_places,monuments
    City: Владимир
-   Path: C:\Users\424\Desktop\data\data\decoded_images\Vladimir\Vladimir_1764_Владимир.jpg
+   Path: 
 
 5. Дворец вице-губернатора (score: 0.3105)
    Category: architecture,historic_architecture,interesting_places,other_buildings_and_structures
    City: Нижний Новгород
-   Path: C:\Users\424\Desktop\data\data\decoded_images\NN\NN_489_Дворец вице-губернатора.jpg
+   Path: 
 ```
 ### 📊 Поддерживаемые города по умолчанию
 - EKB - Екатеринбург
@@ -164,6 +177,7 @@ GitHub: @Andrewkea
 - Сообществу open source
 
 # ⭐ Если проект был полезен, поставьте звезду на GitHub!
+
 
 
 

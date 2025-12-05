@@ -1,16 +1,38 @@
-# Данные
+# Data files
 data/
+*.csv
 *.pkl
-*.pk1
+*.json
+*.jpg
+*.jpeg
+*.png
 
 # Python
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
+*$py.class
+*.so
 .Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environment
 venv/
 env/
+ENV/
 
 # IDE
 .vscode/
@@ -18,44 +40,7 @@ env/
 *.swp
 *.swo
 
-# Системные файлы
+# OS
 .DS_Store
-
 Thumbs.db
 
-# ==================== ДАННЫЕ (НЕ ЗАГРУЖАТЬ В GIT) ====================
-# Большие файлы системы
-data/landmark_system.pk1
-data/landmark_system.pkl
-data/combined_dataset.csv
-data/dataset_statistics.json
-
-# Папки с изображениями
-data/decoded_images/
-decoded_images/
-cleaned_good/
-cleaned_bad/
-
-# Временные файлы данных
-*.pk1
-*.pkl
-*.h5
-*.hdf5
-*.pt
-*.bin
-*.joblib
-
-# Архивы и бэкапы
-*.zip
-*.tar.gz
-*.7z
-*.rar
-*.backup
-
-# Кэш и логи
-*.log
-*.cache
-*.tmp
-temp/
-tmp/
-__pycache__/

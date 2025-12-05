@@ -11,4 +11,12 @@ cd landmark-search-system
 
 # Установите зависимости
 pip install -r requirements.txt
+## 📥 Скачивание данных
+
+Данные слишком велики для GitHub. Скачайте их отдельно:
+
+###  Google Drive
+1. Перейдите по ссылке: [https://drive.google.com/drive/folders/1gXHmgrFyyMLp1BxYYWW-lyYHs9K0xMt1?usp=sharing]
+2. Скачайте архив `data.zip` (~500 МБ)
+3. Распакуйте в папку `data/`
 

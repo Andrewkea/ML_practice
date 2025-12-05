@@ -27,6 +27,14 @@ pip install -r requirements.txt
 1. Перейдите по ссылке: [Google Drive](https://drive.google.com/drive/folders/1gXHmgrFyyMLp1BxYYWW-lyYHs9K0xMt1?usp=sharing)
 2. Скачайте архив `data.zip` (~500 МБ)
 3. Распакуйте в папку `data/`
+### Пример:
+```text
+data/
+├── EKB_images.csv
+├── EKB_places.csv
+├── NN_images.csv
+└── NN_places.csv
+```
 
 Запустить обработку данных:
 ```bash
@@ -117,6 +125,7 @@ OpenAI за модель CLIP
 Сообществу open source
 
 # ⭐ Если проект был полезен, поставьте звезду на GitHub!
+
 
 
 

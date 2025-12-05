@@ -48,12 +48,14 @@ python landmark_system.py process
 
 - decoded_images/ (изображения из base64)
 
-- landmark_system.pk1 (поисковая система)
-
 2. Построение системы поиска
 ```bash
 python landmark_system.py build --clean
 ```
+Система автоматически создаст:
+
+- landmark_system.pk1 (поисковая система)
+- 
 3. Поиск по изображению
 ```bash
 python landmark_system.py search_image --image path/to/your/image.jpg
@@ -126,6 +128,7 @@ GitHub: @Andrewkea
 - Сообществу open source
 
 # ⭐ Если проект был полезен, поставьте звезду на GitHub!
+
 
 
 
